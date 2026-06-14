@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website Vincent Angjaya</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="global.css">
+</head>
+<body>
+    <audio id="bgAudio" loop>
+      <source src="lagu.mp3" type="audio/mpeg">
+    </audio>
+    <button id="audioBtn" title="Toggle musik">
+        <span id="audioIcon">♪</span>
+    </button>
+
+    <div id="navbar">
+        <div class="nav">
+          <a href="#header" class="nav-logo">VIN<div>.</div></a>
+          <div class="nav-links" style="align-items: center;">
+              <a href="#profil">Profil</a>
+              <a href="#profesi">Profesi</a>
+              <a href="#keahlian">Keahlian</a>
+              <a href="#pendidikan">Pendidikan</a>
+              <a href="#sertifikat">Sertifikat</a>
+              <a href="#kontak">Kontak</a>
+              <img src="image/bendera-merah-putih.jpg" width="35px" style="border-radius: 5px; border: 1px solid rgba(0, 0, 0, 0.163);">
+          </div>
+          <div class="navHP"><img src="image/menu_icon.png"></div>
+        </div>
+    </div>
+
+    <div class="isinavHP tersembunyi" id="navbarhp">
+      <a href="#profil">Profil</a>
+      <br><hr><br>
+      <a href="#profesi">Profesi</a>
+      <br><hr><br>
+      <a href="#keahlian">Keahlian</a>
+      <br><hr><br>
+      <a href="#pendidikan">Pendidikan</a>
+      <br><hr><br>
+      <a href="#sertifikat">Sertifikat</a>
+      <br><hr><br>
+      <a href="#kontak">Kontak</a>
+    </div>
+
+    <div id="header">
+        <div class="header-bg-text">VINCENT<br>ANGJAYA</div>
+        <div class="containerkekanan" id="isiheader">
+          <div class="header-left" data-aos="fade-right">
+              <div class="header-tag">Sistem Informasi Bisnis · ISTTS</div>
+              <h1 class="header-title">
+                <div class="containerkekanan animasi-mantul" style="margin-bottom: -30px; margin-top: 20px;">
+                  <h1>H</h1>
+                  <h1>a</h1>
+                  <h1>l</h1>
+                  <h1>o</h1>
+                  <h1>!</h1>
+                </div>
+                <br>Saya <span class="accent">Vincent</span><br>Angjaya.
+              </h1>
+              <p class="header-desc">Selamat datang di <b>VIN PROJECT</b>. Saya mengeksplorasi bagaimana teknologi informasi dapat diimplementasikan untuk meningkatkan efisiensi operasional dan menciptakan nilai kompetitif dalam dunia bisnis.</p>
+              <div class="header-btns">
+              <a href="#profesi" class="btn-primary">Lihat Profesi</a>
+              <a href="#kontak" class="btn-ghost">Hubungi Saya</a>
+              </div>
+          </div>
+          <div class="header-right" data-aos="fade-left">
+              <div class="header-photo" id="headerPhoto"></div>
+              <div class="header-card">
+                  <div class="header-card1">Status saat ini</div>
+                  <div class="header-card2">Mahasiswa Aktif</div>
+                  <div class="header-card3">ISTTS Surabaya · 2025</div>
+              </div>
+          </div>
+        </div>
+        <div class="containerkekanan" id="stats" >
+          <div class="stat" data-aos="fade-down-right"><div class="stat-num">12+</div><div class="stat-label">Keahlian Teknis</div></div>
+          <div class="stat" data-aos="fade-down-right"><div class="stat-num">3</div><div class="stat-label">Visi Profesi</div></div>
+          <div class="stat" data-aos="fade-down-left"><div class="stat-num">2</div><div class="stat-label">Sertifikat</div></div>
+        </div>
+    </div>
+
+  <div class="bglight">
+    <div class="container" id="profil" data-aos="zoom-in">
+      <div class="label">01 — Profil</div>
+      <h2 class="judul">Tentang Saya</h2>
+      <div class="profil-grid">
+        <div class="profil-text" data-aos="zoom-out-right">
+          <p>Di <b>VIN PROJECT</b>, saya mendedikasikan waktu saya untuk menganalisis sistem dan merancang alur kerja digital yang tidak hanya fungsional secara teknis, tetapi juga logis secara bisnis.</p>
+          <p>Saya percaya bahwa sistem yang baik adalah sistem yang mampu berbicara dalam bahasa efisiensi dan pertumbuhan.</p>
+          <div class="profil-badges">
+            <div class="badge blue">Sistem Informasi Bisnis</div>
+            <div class="badge teal">ISTTS Surabaya</div>
+          </div>
+        </div>
+        <div class="profil-photo-wrap" data-aos="zoom-out-left">
+          <div class="profil-photo" id="profilPhoto" style="margin-right: 30px;">
+            <div class="photo-frame"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bgdark">
+    <div class="container" id="profesi" data-aos="zoom-in" >
+      <div class="label" style="color:#7EEFD4">02 — Profesi</div>
+      <h2 class="judul" style="color:#fff">Visi & Profesi</h2>
+      <div class="profesi-list">
+        <a href="https://bidangusaha.co.id/info/it-business-analyst/" target="_blank" style="text-decoration: none;" data-aos="zoom-in-right">
+            <div class="profesi-card">
+            <div class="profesi-num">01</div>
+            <div class="profesi-body">
+                <h3>IT Business Analyst</h3>
+                <p>Langkah pertama saya adalah terjun sebagai analis sistem untuk membantu perusahaan menjembatani celah antara kebutuhan bisnis dan solusi teknologi. Saya ingin menjadi orang yang berada di ruang diskusi, merancang arsitektur digital yang mampu memangkas biaya operasional dan meningkatkan efisiensi kerja tim.</p>
+            </div>
+            </div>
+        </a>
+        <a href="https://creativism.id/digital-agency/" target="_blank" style="text-decoration: none;" data-aos="zoom-in-right">
+            <div class="profesi-card">
+            <div class="profesi-num">02</div>
+            <div class="profesi-body">
+                <h3>Digital Agency</h3>
+                <p>Apa yang saat ini berawal dari sebuah personal branding dan proyek kuliah, saya proyeksikan untuk tumbuh menjadi sebuah agensi digital (tech-consultancy). Saya ingin VIN PROJECT menjadi wadah bagi talenta-talenta kreatif untuk membantu UMKM maupun startup dalam membangun ekosistem digital mereka sendiri.</p>
+            </div>
+            </div>
+        </a>
+        <a href="https://www.cake.me/resources/industry-job-overview/cio-adalah" target="_blank" style="text-decoration: none;" data-aos="zoom-in-right">
+            <div class="profesi-card">
+            <div class="profesi-num">03</div>
+            <div class="profesi-body">
+                <h3>Chief Information Officer (CIO)</h3>
+                <p>Sebagai visi jangka panjang, saya menargetkan untuk memimpin arah teknologi sebuah perusahaan berskala besar sebagai CIO. Saya ingin memimpin tim lintas divisi, mengambil keputusan strategis di bawah tekanan, dan memastikan teknologi yang digunakan perusahaan sejalan dengan target bisnis global.</p>
+            </div>
+            </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="bglight">
+    <div class="container" id="keahlian" data-aos="fade-right">
+      <div class="label">03 — Keahlian</div>
+      <h2 class="judul">Keahlian</h2>
+      <div class="containerkekanan" id="filter">
+        <button class="button aktif" id="btnSemua">Semua</button>
+        <button class="button" id="btnPemrograman">Pemrograman</button>
+        <button class="button" id="btnLainnya">Desain & Jaringan</button>
+      </div>
+      <div class="containerkekanan" id="isikeahlian" data-aos="fade-left">
+        <a href="https://www.rumahweb.com/journal/python-adalah/" target="_blank" class="skill-card pemrograman">
+          <div class="skill-icon"><img src="image/python.png"></div>
+          <div class="skill-name">Python</div>
+        </a>
+        <a href="https://www.rumahweb.com/journal/python-adalah/" target="_blank" class="skill-card pemrograman">
+          <div class="skill-icon"><img src="image/java.png"></div>
+          <div class="skill-name">Java</div>
+        </a>
+        <a href="https://it.telkomuniversity.ac.id/mengenal-html-pengertian-fungsi-dan-contoh-kode-praktis/" target="_blank" class="skill-card pemrograman">
+          <div class="skill-icon"><img src="image/html.png"></div>
+          <div class="skill-name">HTML</div>
+        </a>
+        <a href="https://www.hostinger.com/id/tutorial/apa-itu-css" target="_blank" class="skill-card pemrograman">
+          <div class="skill-icon"><img src="image/css.png"></div>
+          <div class="skill-name">CSS</div>
+        </a>
+        <a href="https://tekno.kompas.com/read/2023/08/27/12310077/microsoft-word--pengertian-sejarah-fitur-fungsi-dan-manfaatnya" target="_blank" class="skill-card lainnya">
+          <div class="skill-icon"><img src="image/word.webp"></div>
+          <div class="skill-name">Microsoft Word</div>
+        </a>
+        <a href="https://www.belajaroffice.com/pengertian-microsoft-excel-fungsi-dan-manfaatnya/" target="_blank" class="skill-card lainnya">
+          <div class="skill-icon"><img src="image/excel.png"></div>
+          <div class="skill-name">Microsoft Excel</div>
+        </a>
+        <a href="https://tirto.id/pengertian-microsoft-powerpoint-sejarah-fungsi-dan-contohnya-gnAB" target="_blank" class="skill-card lainnya">
+          <div class="skill-icon"><img src="image/ppt.png"></div>
+          <div class="skill-name">PowerPoint</div>
+        </a>
+        <a href="https://www.ardakom.id/blog/mengenal-jaringan-mikrotik" target="_blank" class="skill-card lainnya">
+          <div class="skill-icon"><img src="image/mikrotik.png"></div>
+          <div class="skill-name">Mikrotik</div>
+        </a>
+        <a href="https://dianisa.com/pengertian-adobe-photoshop" target="_blank" class="skill-card lainnya">
+          <div class="skill-icon"><img src="image/photoshop.png"></div>
+          <div class="skill-name">Photoshop</div>
+        </a>
+        <a href="https://dianisa.com/pengertian-adobe-illustrator" target="_blank" class="skill-card lainnya">
+          <div class="skill-icon"><img src="image/illustrator.png"></div>
+          <div class="skill-name">Illustrator</div>
+        </a>
+        <a href="https://dianisa.com/pengertian-adobe-animate" target="_blank" class="skill-card lainnya">
+          <div class="skill-icon"><img src="image/animate.png"></div>
+          <div class="skill-name">Animate</div>
+        </a>
+        <a href="https://makinrajin.com/blog/canva-adalah/" target="_blank" class="skill-card lainnya">
+          <div class="skill-icon"><img src="image/canva.png"></div>
+          <div class="skill-name">Canva</div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <div class="container" id="pendidikan" data-aos="zoom-in">
+      <div class="label">04 — Pendidikan</div>
+      <h2 class="judul">Riwayat Pendidikan</h2>
+      <div class="vidio tersembunyi" id="vidioGloria">
+        <iframe width="100%" height="500" src="https://www.youtube.com/embed/lg-UmpTYEC0?si=oXgKhKctlFGzkeRV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style="border-radius: 10px;"></iframe>
+      </div>
+      <div class="vidio tersembunyi" id="vidioPetra">
+        <iframe width="100%" height="500" src="https://www.youtube.com/embed/_sn6UdIx5bM?si=1nlzyohPT4dhyJ89" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style="border-radius: 10px;"></iframe>
+      </div>
+      <div class="vidio tersembunyi" id="vidioISTTS">
+        <iframe width="100%" height="500" src="https://www.youtube.com/embed/Xiva1Hev4cs?si=D8QpAY8CDF00cjZV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style="border-radius: 10px;"></iframe>
+      </div>
+      <div class="pendidikan-grid" data-aos="zoom-in-up">
+        <div class="pend-card" id="kartuGloria">
+          <div id="isipendidikan">
+            <div class="pend-front">
+              <div class="pend-level">SD — SMP</div>
+              <div class="logosekolah"><img src="image/logogloria.png" width="300px"></div>
+              <div class="namasekolah">SD & SMP Kristen Gloria</div>
+              <div class="tulisanhint">Klik untuk lihat lokasi →</div>
+            </div>
+            <div class="pend-back">
+              <p style="font-size:13px;margin-bottom:10px;font-family:'Plus Jakarta Sans',sans-serif;color:#fff;">Lokasi SD & SMP Kristen Gloria</p>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.7190770228285!2d112.80397027756987!3d-7.2727735740000625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fa07de4059f1%3A0xdb029b83317a52a4!2sSD%20Kristen%20Gloria%203!5e0!3m2!1sid!2sid!4v1775928626919!5m2!1sid!2sid" width="100%" height="180" style="border:0;border-radius:8px;" allowfullscreen="" loading="lazy"></iframe>
+              <div class="button buttonvidiosekolah" id="buttonvidiosekolah1">Klik untuk lihat vidio</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pend-card" id="kartuPetra">
+          <div id="isipendidikan">
+            <div class="pend-front" style="background: linear-gradient(135deg,#1a3a1a,#2d6e2d);">
+              <div class="pend-level">SMA / SMK</div>
+              <div class="logosekolah"><img src="image/logopetra.png" width="130px"></div>
+              <div class="namasekolah">SMK Kristen Petra</div>
+              <div style="font-family:'Plus Jakarta Sans',sans-serif;font-size:12px;color:rgba(255,255,255,0.7);margin-top:8px;">Teknik Komputer dan Jaringan</div>
+              <div class="tulisanhint">Klik untuk lihat lokasi →</div>
+            </div>
+            <div class="pend-back">
+              <p style="font-size:13px;margin-bottom:10px;font-family:'Plus Jakarta Sans',sans-serif;color:#fff;">Lokasi SMK Kristen Petra</p>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.216095200585!2d112.73351707478746!3d-7.329609992678732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb41b257e5c5%3A0xdcc88979c10e17c!2sSMK%20Kristen%20Petra!5e0!3m2!1sid!2sid!4v1775928356079!5m2!1sid!2sid" width="100%" height="180" style="border:0;border-radius:8px;" allowfullscreen="" loading="lazy"></iframe>
+              <div class="button buttonvidiosekolah" id="buttonvidiosekolah2">Klik untuk lihat vidio</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pend-card" id="kartuISTTS">
+          <div id="isipendidikan">
+            <div class="pend-front" style="background: linear-gradient(135deg,#1a2a5e,#2B4EE8);">
+              <div class="pend-badge">Saat Ini</div>
+              <div class="pend-level">Perguruan Tinggi</div>
+              <div class="logosekolah"><img src="image/logoISTTS.png" width="130px"></div>
+              <div class="namasekolah">ISTTS Surabaya</div>
+              <div style="font-family:'Plus Jakarta Sans',sans-serif;font-size:12px;color:rgba(255,255,255,0.7);margin-top:8px;">Sistem Informasi Bisnis</div>
+              <div class="tulisanhint">Klik untuk lihat lokasi →</div>
+            </div>
+            <div class="pend-back">
+              <p style="font-size:13px;margin-bottom:10px;font-family:'Plus Jakarta Sans',sans-serif;color:#fff;">Lokasi ISTTS Surabaya</p>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.555771876901!2d112.75602017478715!3d-7.291275192716177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fbb476048727%3A0x5f5f7cf736ae643e!2sInstitut%20Sains%20dan%20Teknologi%20Terpadu%20Surabaya%20(ISTTS)!5e0!3m2!1sid!2sid!4v1779629018862!5m2!1sid!2sid" width="100%" height="180" style="border:0;border-radius:8px;" allowfullscreen="" loading="lazy"></iframe>
+              <div class="button buttonvidiosekolah" id="buttonvidiosekolah3">Klik untuk lihat vidio</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="bglight">
+    <div class="container" id="sertifikat" data-aos="zoom-in">
+      <div class="label">05 — Sertifikat</div>
+      <h2 class="judul">Sertifikasi</h2>
+      <div class="serti-grid" data-aos="zoom-in-right">
+        <a href="https://drive.google.com/file/d/1zujxFmmw0xe4_3_Z4--Dd91yNPumHZ6S/view?usp=sharing" target="_blank" class="serti-card">          
+          <div style="font-size: 30pt;">📄</div>
+          <div class="serti-body">
+            <div class="serti-title">Sertifikat Praktik Kerja Lapangan</div>
+            <div class="serti-sub">Pengalaman industri langsung di lapangan</div>
+          </div>
+          <div class="arrow">→</div>
+        </a>
+        <a href="https://drive.google.com/file/d/141rxkWIH7TcEyFwFgwC9JjsuixNHItGE/view?usp=drive_link" target="_blank" class="serti-card">
+          <div style="font-size: 30pt;">🖥️</div>
+          <div class="serti-body">
+            <div class="serti-title">Sertifikat Uji Kompetensi TKJ</div>
+            <div class="serti-sub">Teknik Komputer dan Jaringan — Radnet</div>
+          </div>
+          <div class="arrow">→</div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="bgdark">
+    <div class="container" id="kontak" data-aos="zoom-in">
+      <div class="label" style="color:#7EEFD4">06 — Kontak</div>
+      <h2 class="judul" style="color:#fff">Mari Wujudkan<br>Visi Digital Anda</h2>
+      <div class="kontak-layout">
+        <div class="kontak-kananHP" data-aos="zoom-in-left">
+          <img src="image/gambarkontak.png" class="kontak-gambar">
+        </div>
+        <div class="kontak-kiri" data-aos="zoom-in-right">
+          <p id="desckontakkiri">Vincent Project siap bermitra dengan Anda untuk mengembangkan solusi digital yang unggul — website, aplikasi, branding, dan analisis bisnis berbasis data.</p>
+          <div class="kontak-grid">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vincent.a25@istts.ac.id" target="_blank" class="kontak-btn">
+              <img src="image/email.png" alt="Email" class="kontak-logo" style="max-height: 30px;">
+              <div>
+                <div class="kontak-label">Email</div>
+                <div class="isikontak">vincent.a25@istts.ac.id</div>
+              </div>
+            </a>
+            <a href="https://wa.me/6282232754820" target="_blank" class="kontak-btn">
+              <img src="image/logowa.png" alt="WhatsApp" class="kontak-logo" style="max-width: 50px;">
+              <div>
+                <div class="kontak-label">WhatsApp</div>
+                <div class="isikontak">+62 822-3275-4820</div>
+              </div>
+            </a>
+            <a href="https://www.instagram.com/vin_angj/" target="_blank" class="kontak-btn">
+              <img src="image/instagram.webp" alt="Instagram" class="kontak-logo" style="max-width: 55px; margin-left: -7px;">
+              <div>
+                <div class="kontak-label">Instagram</div>
+                <div class="isikontak">@vin_angj</div>
+              </div>
+            </a>
+            <a href="https://github.com/VinAng" target="_blank" class="kontak-btn">
+              <img src="image/github.png" alt="GitHub" class="kontak-logo kontak-logo-github">
+              <div>
+                <div class="kontak-label">GitHub</div>
+                <div class="isikontak">VinAng</div>
+              </div>
+            </a>
+            <a href="https://maps.app.goo.gl/W1qN4vKHp2Dr9XWz8" target="_blank" class="kontak-btn">
+              <span class="kontak-icon">📍</span>
+              <div>
+                <div class="kontak-label">Lokasi</div>
+                <div class="isikontak">Surabaya, Jawa Timur</div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="kontak-kanan" data-aos="zoom-in-left">
+          <img src="image/gambarkontak.png" class="kontak-gambar">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="footer">
+    <div class="isifooter">
+      <p>© 2026 Vincent Angjaya. All rights reserved.</p>
+    </div>
+  </div>
+
+    <script src="myJs.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
